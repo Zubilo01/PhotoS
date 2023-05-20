@@ -1,0 +1,120 @@
+body{
+    margin: 0;
+}
+
+.navigation{
+    background-color: black;
+    margin: 0px;
+    padding: 16px 16px;
+    height: 40px;
+    text-align: center;
+}
+.li{
+    float: left;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px 20px;
+    font-size: 17px;
+}
+.d:hover {
+    color: #ccb8b8;
+    font-size: 19px;
+  }
+  .section_1{
+    position: relative;
+    background-image:url('1621014810_3-phonoteka_org-p-fon-dlya-brauzera-igrovoi-3.jpg');
+    background-attachment: fixed; 
+    background-size: 100px 100px; 
+  }
+
+  .text_section_ogl_1{
+    padding-left: 100px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  .text_1sect{
+    color: white;
+    font-size: 100px;
+    font-family: ubuntu condensed;
+  }
+  .general_style{
+    width: 1305px;
+    padding-left: 120px;
+    padding-right: 120px;
+    font-size: 16px;
+    padding-top: 50px;
+    font-family: Arial;
+    background-color: rgb(175, 173, 173);
+  }
+  .flex-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .flex-container > div {
+    background-color: white;
+    width: 270px;
+    margin-top: 15px;
+    margin-right: 165px;
+    margin-bottom: 40px;
+    text-align: center;
+    font-size: 16px;
+}
+.footer {
+  width: 100%;
+  position: relative;
+  height: auto;
+  background-color: #070617;
+}
+.footer .col {
+  width: 190px;
+  height: auto;
+  float: left;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  padding: 0px 20px 20px 20px;
+}
+.footer .col h1 {
+  margin: 0;
+  padding: 0;
+  font-family: inherit;
+  font-size: 12px;
+  line-height: 17px;
+  padding: 20px 0px 5px 0px;
+  color: rgba(255,255,255,0.2);
+  font-weight: normal;
+  text-transform: uppercase;
+  letter-spacing: 0.250em;
+}
+.footer .col ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.footer .col ul li {
+  color: #999999;
+  font-size: 14px;
+  font-family: inherit;
+  font-weight: bold;
+  padding: 5px 0px 5px 0px;
+  cursor: pointer;
+  transition: .2s;
+  -webkit-transition: .2s;
+  -moz-transition: .2s;
+}
+.social ul li {
+  display: inline-block;
+  padding-right: 5px !important;
+}
+
+.footer .col ul li:hover {
+  color: #ffffff;
+  transition: .1s;
+  -webkit-transition: .1s;
+  -moz-transition: .1s;
+}
+.clearfix {
+  clear: both;
+}
